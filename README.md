@@ -32,9 +32,9 @@ docker run --rm -v $(pwd):/terraform terraform-docker apply
 
 ## Configuration de l'infrastructure avec Docker-compose
 ```bash
-```docker-compose run  terraform init
-```docker-compose run  terraform plan
-```docker-compose run  terraform apply
+docker-compose run  terraform init
+docker-compose run  terraform plan
+docker-compose run  terraform apply
 ```
 
 
