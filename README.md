@@ -15,8 +15,7 @@ cd Static-Website-Deployment-AWS
   ```
 ## 2. Configurer les variables
 - Modifiez le fichier terraform/variables.tf pour y inclure les valeurs nécessaires :
-Nom du bucket S3. ( Le nom doit être unique )
-Région AWS.
+Nom du bucket S3 ( Le nom doit être unique ) et Région AWS.
 - Placez vos credentials AWS dans un fichier .env au format suivant : .env ( pour raison de sécurité mon fichier .env n'est pas inclut )
 - Pour générer les access ids ajouter un IAM USER qui a les permissions nécessaires et après vous vous pouvez générer uns access id.
 ```bash
